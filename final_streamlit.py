@@ -1,4 +1,3 @@
-pip install plotly
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -6,7 +5,6 @@ import plotly.graph_objects as go
 import seaborn as sns
 from PIL import Image
 from streamlit_option_menu import option_menu
-
 #reading the csv file
 df1=pd.read_csv("Airbnb.csv")
 def sun(a):
